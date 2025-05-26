@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Miauricio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <div class="logo">
+                <h1>Miauricio<span>Macri</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html" class="activo">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="portada-productos">
+            <div class="contenedor">
+                <h2>Nuestros Productos</h2>
+                <p>Todo lo que tu gato necesita para ser feliz</p>
+            </div>
+        </section>
+
+        <section class="busqueda-producto">
+            <div class="contenedor">
+                <div class="caja-busqueda">
+                    <input type="text" placeholder="Buscar productos...">
+                    <button type="button" class="boton-busqueda">🔍</button>
+                </div>
+                <div class="opciones-filtro">
+                    <select name="category">
+                        <option value="">Todas las categorías</option>
+                        <option value="comida">Comida</option>
+                        <option value="juguetes">Juguetes</option>
+                        <option value="camas">Camas y Rascadores</option>
+                    </select>
+                    <select name="price">
+                        <option value="">Todos los precios</option>
+                        <option value="low">Hasta $1000</option>
+                        <option value="medium">$1000 - $3000</option>
+                        <option value="high">Más de $3000</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+
+        <section class="listado-productos">
+            <div class="contenedor">
+                <h3>Comida Premium</h3>
+                <div class="cuadricula-productos">
+                    <article class="tarjeta-producto">
+                        <div class="imagen-producto">
+                            <img src="imgs/comida1.png" alt="Comida Premium Gatitos">
+                        </div>
+                        <div class="info-producto">
+                            <h3>VitalCrops CATPRO</h3>
+                            <p class="descripcion-producto">Alimento especial para gatos adultos, rico en proteínas y nutrientes esenciales.</p>
+                            <div class="detalles-producto">
+                                <p class="precio-producto">$799 <span></span></p>
+                                <a href="#" class="boton">Comprar</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta-producto">
+                        <div class="imagen-producto">
+                            <img src="imgs/comida2.jpg" alt="Comida Purina Pro Plan">
+                        </div>
+                        <div class="info-producto">
+                            <h3>Purina Pro Plan</h3>
+                            <p class="descripcion-producto">Alimento húmedo que combina la nutrición que tu deseas con el sabor que a ellos les encanta.</p>
+                            <div class="detalles-producto">
+                                <p class="precio-producto">$899</p>
+                                <a href="#" class="boton">Comprar</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta-producto">
+                        <div class="imagen-producto">
+                            <img src="imgs/comida3.jpg" alt="Comida Cat Selection Premium">
+                        </div>
+                        <div class="info-producto">
+                            <h3>Cat Selection Premium</h3>
+                            <p class="descripcion-producto">Alimento seco y balanceado sabor pescado y pollo para gatos adultos mayores.</p>
+                            <div class="detalles-producto">
+                                <p class="precio-producto">$999</p>
+                                <a href="#" class="boton">Comprar</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <h3>Rascadores y Camas</h3>
+                <div class="cuadricula-productos">
+                    <article class="tarjeta-producto">
+                        <div class="imagen-producto">
+                            <img src="imgs/rascador multifunc.jpg" alt="Rascador Multifuncional">
+                        </div>
+                        <div class="info-producto">
+                            <h3>Rascador Multifuncional</h3>
+                            <p class="descripcion-producto">Ofrece todo lo que necesitan para jugar, descansar y rascar. Con dos camas acolchadas, dos cuevas amplias, varias plataformas y dos hamacas</p>
+                            <div class="detalles-producto">
+                                <p class="precio-producto">$2,999</p>
+                                <a href="#" class="boton">Comprar</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta-producto">
+                        <div class="imagen-producto">
+                            <img src="imgs/camatunel.jpg" alt="Cama Tunel">
+                        </div>
+                        <div class="info-producto">
+                            <h3>Cama Tunel</h3>
+                            <p class="descripcion-producto">Cama de dos niveles. Diseño encantador de dona para que descansen en el exterior y exploren el tunel interior. Material resistente a arañazos y fácil de lavar.</p>
+                            <div class="detalles-producto">
+                                <p class="precio-producto">$1,299</p>
+                                <a href="#" class="boton">Comprar</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta-producto">
+                        <div class="imagen-producto">
+                            <img src="imgs/rascadorpared.jpg" alt="Rascador Pared">
+                        </div>
+                        <div class="info-producto">
+                            <h3>Rascador de Pared</h3>
+                            <p class="descripcion-producto">Rascador para fijar a la pared, ahorra espacio y es perfecto para estiramientos verticales.</p>
+                            <div class="detalles-producto">
+                                <p class="precio-producto">$599</p>
+                                <a href="#" class="boton">Comprar</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <h3>Juguetes</h3>
+                <div class="cuadricula-productos">
+                    <article class="tarjeta-producto">
+                        <div class="imagen-producto">
+                            <img src="imgs/set_toys.jpg" alt="Set de Juguetes Interactivos">
+                        </div>
+                        <div class="info-producto">
+                            <h3>Set de Juguetes Interactivos</h3>
+                            <p class="descripcion-producto">Conjunto de juguetes interactivos para mantener a tu gato activo y entretenido.</p>
+                            <div class="detalles-producto">
+                                <p class="precio-producto">$1,399</p>
+                                <a href="#" class="boton">Comprar</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta-producto">
+                        <div class="imagen-producto">
+                            <img src="imgs/laser_toy.jpg" alt="Juguete Láser Automático">
+                        </div>
+                        <div class="info-producto">
+                            <h3>Juguete Láser Automático</h3>
+                            <p class="descripcion-producto">Juguete con láser que se mueve automáticamente en patrones aleatorios para entretener a tu gato.</p>
+                            <div class="detalles-producto">
+                                <p class="precio-producto">$1,999</p>
+                                <a href="#" class="boton">Comprar</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta-producto">
+                        <div class="imagen-producto">
+                            <img src="imgs/feather_toy.jpg" alt="Caña con Plumas">
+                        </div>
+                        <div class="info-producto">
+                            <h3>Caña con Plumas</h3>
+                            <p class="descripcion-producto">Juguete tipo caña con plumas naturales que estimula el instinto cazador de tu gato.</p>
+                            <div class="detalles-producto">
+                                <p class="precio-producto">$399</p>
+                                <a href="#" class="boton">Comprar</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contenedor">
+            <div class="contenido-pie">
+                <div class="info-pie">
+                    <h3>Miauricio Macri</h3>
+                    <p>Av. San Martin 123</p>
+                    <p>+54 3407 123456</p>
+                    <p>info@miauriciomacri.com</p>
+                </div>
+                <div class="enlaces-pie">
+                    <h3>Enlaces</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="social-pie">
+                    <h3>Seguinos</h3>
+                    <div class="iconos-sociales">
+                        <a href="#" aria-label="Facebook"><img src="imgs/2021_Facebook_icon.svg" alt=""></a>
+                        <a href="#" aria-label="Twitter"><img src="imgs/X_icon.svg" alt=""></a>
+                        <a href="#" aria-label="Instagram"><img src="imgs/Instagram_logo_2016.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="derechos">
+                <p>&copy; 2024 Miauricio Macri Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
